@@ -32,7 +32,7 @@ If[
 
 	Get[FileNameJoin[{DirectoryName[$InputFileName], "EvaluationUtilities.wl"}]]; (* redirectPrint, redirectMessages, simulatedEvaluate *)
 
-	Get[FileNameJoin[{DirectoryName[$InputFileName], "OutputHandlingUtilities.wl"}]]; (* textQ, toOutTextHTML, toOutImageHTML,
+	Get[FileNameJoin[{DirectoryName[$InputFileName], "OutputHandlingUtilities.wl"}]]; (* textQ, toOutTextHTML, toOutImageHTML,  *)
 																							toText, containsPUAQ *)
 
 	Get[FileNameJoin[{DirectoryName[$InputFileName], "CompletionUtilities.wl"}]]; (* rewriteNamedCharacters *)
